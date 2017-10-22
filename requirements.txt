@@ -1,0 +1,12 @@
+I'm going to make a Calculator on Python using Sublime Text. It will be able to add, subtract, multiply, divide.
+I'll need to make four variables:
+	1st variable for the 1st number
+	2nd variable for the 2nd number
+	3rd variable for specifying the operation such as +, -, *, /
+	4th variable for the final answer
+First of all, the program will ask for the 1st number and then for the 2nd number. It will then ask you to write the operation you want to do such as add, subtract, multiply or divide. After this, it will show the answer.
+A sample preview for the program:
+	1st number = 6
+	2nd number = 5
+	Operation = Multiply
+	Answer = 30
