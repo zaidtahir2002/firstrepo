@@ -1,4 +1,4 @@
-I'm going to make a Calculator on Python using Sublime Text. It will be able to add, subtract, multiply, divide.
+I'm going to make a Calculator on Python using Sublime Text. It will be able to add, subtract, multiply, divide. It will also be able to handle decimals and negative numbers. It also will be able to recognize the operation using three different strings (for example in addition, it will recognize "Add", "add", "+")
 I'll need to make four variables:
 	1st variable for the 1st number
 	2nd variable for the 2nd number

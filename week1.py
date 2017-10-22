@@ -1,12 +1,12 @@
 first = input("1st number = ")
 second = input("2nd number = ")
 operation = input("Operation = ")
-if operation == "Add":
-	answer = int(first) + int(second)
-elif operation == "Subtract":
-	answer = int(first) - int(second)
-elif operation == "Multiply":
-	answer = int(first) * int(second)
-elif operation == "Divide":
-	answer = int(first) / int(second)
+if operation in ["Add", "add", "+"]:
+	answer = float(first) + float(second)
+elif operation in ["Subtract", "subtract", "-"]:
+        answer = float(first) - float(second)
+elif operation in ["Multiply", "multiply", "*"]:
+	answer = float(first) * float(second)
+elif operation in ["Divide", "divide", "/"]:
+	answer = float(first) / float(second)
 print ("Answer = " + str(answer))
